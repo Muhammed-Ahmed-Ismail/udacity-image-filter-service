@@ -46,7 +46,6 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     res.sendFile(path,async ()=>{
       await deleteLocalFiles([path])
     })
-    // await deleteLocalFiles([path])
   });
 
   // Start the Server
